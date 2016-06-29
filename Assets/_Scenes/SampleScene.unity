@@ -1427,7 +1427,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1489302419}
   m_Layer: 0
-  m_Name: Button
+  m_Name: eButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
