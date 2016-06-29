@@ -4,13 +4,15 @@ using System.Collections;
 public class move : MonoBehaviour {
 	public GameObject pc;
 	Vector3 scale;
-
-	void Update()
+	public cswitch cs;
+		void Update()
 	{
-		scale = this.transform.lossyScale;
-		this.transform.Rotate(Vector3.up*3*Time.deltaTime);  
-
+		if (cs.GetSw() == 1) {
+			scale = this.transform.lossyScale;
+			this.transform.Rotate (Vector3.up * 5 * Time.deltaTime);  
+		}
 	}
+
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.CompareTag ("Player")) {
@@ -19,18 +21,7 @@ public class move : MonoBehaviour {
 		}
 
 	}
-	/*void OnCollisionStay(Collision collision)
-	{
-		if (collision.gameObject.tag == "Player")
-		{  
-			
-			pc = GameObject.FindWithTag("Player");
-			pc.transform.parent = transform;
-			this.transform.localScale = scale;
-			Debug.Log("test5");
-		}
 
-	}*/
 	void OnTriggerExit(Collider other)
 	{
 		if (other.CompareTag ("Player"))
