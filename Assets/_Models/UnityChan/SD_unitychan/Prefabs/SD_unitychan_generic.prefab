@@ -4167,6 +4167,7 @@ MonoBehaviour:
   dynamicRatio: 1
   stiffnessForce: 0.01
   stiffnessCurve:
+    serializedVersion: 2
     m_Curve:
     - time: 0
       value: 0.010909166
@@ -4180,8 +4181,10 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 4
   dragForce: 0.4
   dragCurve:
+    serializedVersion: 2
     m_Curve:
     - time: 0
       value: 0.40202022
@@ -4195,6 +4198,7 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+    m_RotationOrder: 4
   springBones:
   - {fileID: 11400068}
   - {fileID: 11400066}
@@ -4237,7 +4241,6 @@ MonoBehaviour:
   _random: 0
   _threshold: 0.5
   _interval: 10
-  isGUI: 1
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5023,11 +5026,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isWindActive: 0
-  threshold: 0.5
-  interval: 5
-  windPower: 1
-  gravity: 0.98
-  isGUI: 1
 --- !u!114 &11400086
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5083,7 +5081,6 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 2a4678d510ba7ab449c6a94d12ddb49e, type: 2}
   delayWeight: 3
   isKeepFace: 1
-  isGUI: 1
 --- !u!137 &13700000
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

@@ -24,7 +24,9 @@ public class PlayerCharacter : MonoBehaviour
     public float walkSpeed = 1;
     public float runSpeed = 3;
     public float rotateSpeed = 15 * 60;
-    
+	public static int hp=5;
+
+	private AudioSource dm;
     private Animator anim;
     private bool enableMovement = true; 
    
@@ -65,4 +67,9 @@ public class PlayerCharacter : MonoBehaviour
     {
         enableMovement = true;
     }
+	public void OnClick(){
+		dm = GetComponent<AudioSource>();
+		dm.PlayOneShot (dm.clip);
+		hp--;
+	}
 }

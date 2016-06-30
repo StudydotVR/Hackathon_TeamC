@@ -71,7 +71,7 @@ namespace UnityChan
 			var end = curve.keys [curve.length - 1].time;
 			//var step	= (end - start) / (springBones.Length - 1);
 		
-			var prop = springBones [0].GetType ().GetField (fieldName, System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public);
+			var prop = springBones [1].GetType ().GetField (fieldName, System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public);
 		
 			for (int i = 0; i < springBones.Length; i++) {
 				//Kobayashi
