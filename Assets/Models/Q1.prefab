@@ -53,6 +53,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f65a186cb65b4e8a812ecad055ef303, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentNum: 
+  button1: {fileID: 0}
+  button2: {fileID: 0}
+  button3: {fileID: 0}
+  door: {fileID: 0}
+  fl: {fileID: 0}
+  word: []
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

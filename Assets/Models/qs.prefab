@@ -688,6 +688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flag1: {fileID: 0}
+  flag2: {fileID: 0}
 --- !u!114 &11497148
 MonoBehaviour:
   m_ObjectHideFlags: 1
