@@ -5,7 +5,7 @@ public class Fall : MonoBehaviour {
 
 	private int flag =0;
 	public GameObject ob; 
-	float pos_y ;
+	private float pos_y ;
 	//
 
 	void Start(){
