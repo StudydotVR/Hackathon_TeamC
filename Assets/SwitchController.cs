@@ -8,9 +8,14 @@ public class SwitchController : MonoBehaviour {
 	private Vector3 target;
 	private bool flag;
 
+	public AudioClip audioClip;
+	AudioSource Source;
+
 
 	void Start () {
 		target = transform.position - new Vector3 (0, 0.4f, 0);
+		Source = gameObject.GetComponent<AudioSource> ();
+		Source.clip = audioClip;
 
 	}
 
@@ -18,7 +23,9 @@ public class SwitchController : MonoBehaviour {
 
 		if(col.gameObject.tag == "Player"){
 			//Debug.Log ("on");
-
+			if(flag == false){
+			Source.PlayOneShot (audioClip);
+			}
 			flag = true;
 
 		}

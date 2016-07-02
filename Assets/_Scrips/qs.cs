@@ -28,6 +28,9 @@ public class qs : MonoBehaviour
 
     private int squiz = 0;
 
+	public AudioClip audioClip;
+	AudioSource Source;
+
 	void Start () 
 	{
 		text1 = button1.transform.FindChild ("Text1").gameObject.GetComponent<Text>();
@@ -36,6 +39,8 @@ public class qs : MonoBehaviour
 		button1.SetActive (false);
 		button2.SetActive (false);
 		button3.SetActive (false);
+		Source = gameObject.GetComponent<AudioSource> ();
+		Source.clip = audioClip;
         
 
 	}
@@ -83,6 +88,7 @@ public class qs : MonoBehaviour
         {
             if (currentNum == "first")
             {
+				Source.PlayOneShot (audioClip);
                 Debug.Log("a");
                 newStart();
                 playerEnter = false;
@@ -102,6 +108,7 @@ public class qs : MonoBehaviour
         {
             if (currentNum.Equals("second"))
             {
+				Source.PlayOneShot (audioClip);
                 newStart();
                 playerEnter = false;
             }
@@ -119,6 +126,7 @@ public class qs : MonoBehaviour
         {
             if (currentNum == "third")
             {
+				Source.PlayOneShot (audioClip);
                 newStart();
                 playerEnter = false;
             }
