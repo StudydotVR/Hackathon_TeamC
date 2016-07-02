@@ -24,7 +24,7 @@ public class PlayerCharacter : MonoBehaviour
     public float walkSpeed = 1;
     public float runSpeed = 3;
     public float rotateSpeed = 15 * 60;
-	public static int hp=5;
+	public static int hp=3;
 
 	private AudioSource dm;
     private Animator anim;
@@ -33,6 +33,7 @@ public class PlayerCharacter : MonoBehaviour
     void Start ()
     {
         anim = GetComponent<Animator>();
+        hp = 3;
     }
 
 

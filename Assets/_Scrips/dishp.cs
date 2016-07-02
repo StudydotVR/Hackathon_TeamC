@@ -11,6 +11,6 @@ public class dishp : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		text.text = PlayerCharacter.hp.ToString() + "/5";
+        text.text = PlayerCharacter.hp.ToString() + "/3";
 	}
 }

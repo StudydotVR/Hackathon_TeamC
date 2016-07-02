@@ -1508,8 +1508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pc: {fileID: 0}
-  speed: 0
-  sc: {fileID: 0}
+  sw: {fileID: 0}
 --- !u!65 &233020943
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5014,8 +5013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pc: {fileID: 721657279}
-  speed: 5
-  sc: {fileID: 1479492284}
+  sw: {fileID: 1479492284}
 --- !u!4 &721657282
 Transform:
   m_ObjectHideFlags: 0
@@ -6688,8 +6686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pc: {fileID: 985272966}
-  speed: 5
-  sc: {fileID: 935475816}
+  sw: {fileID: 935475816}
 --- !u!4 &985272969
 Transform:
   m_ObjectHideFlags: 0
@@ -7031,8 +7028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pc: {fileID: 1021746014}
-  speed: 5
-  sc: {fileID: 216500541}
+  sw: {fileID: 216500541}
 --- !u!4 &1021746017
 Transform:
   m_ObjectHideFlags: 0
@@ -12122,7 +12118,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 476740, guid: abfab9c74fa9b3d49a967da945769467, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 201.9
+      value: -292
       objectReference: {fileID: 0}
     - target: {fileID: 476740, guid: abfab9c74fa9b3d49a967da945769467, type: 2}
       propertyPath: m_LocalPosition.y
@@ -12334,8 +12330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pc: {fileID: 0}
-  speed: 0
-  sc: {fileID: 0}
+  sw: {fileID: 0}
 --- !u!65 &1895822205
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13220,8 +13215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pc: {fileID: 0}
-  speed: 0
-  sc: {fileID: 0}
+  sw: {fileID: 0}
 --- !u!65 &2028494466
 BoxCollider:
   m_ObjectHideFlags: 0

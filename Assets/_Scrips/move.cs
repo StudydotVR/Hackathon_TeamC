@@ -3,18 +3,12 @@ using System.Collections;
 
 public class move : MonoBehaviour {
 	public GameObject pc;
-
-	private Vector3 target;
-	public float speed;
-
-	//private bool flag;
-
-	public SwitchController sc;
-
+	//Vector3 scale;
+	public SwitchController sw;
 		void Update()
 	{
-		if (sc.Get_flag() == true) {
-
+		if (sw.Get_flag() == true) {
+			//scale = this.transform.lossyScale;
 			this.transform.Rotate (Vector3.up * 5 * Time.deltaTime);  
 		}
 	}

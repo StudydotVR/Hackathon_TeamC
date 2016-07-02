@@ -4,6 +4,7 @@ using System.Collections;
 public class ddst : MonoBehaviour {
     int jtest=0;
 	int flag;
+    
 	private GameObject ob;
 	//private GameObject ob2;
 
@@ -42,4 +43,8 @@ public class ddst : MonoBehaviour {
 	public void setflag(int _flag){
 		flag = _flag;
 	}
+    private void get()
+    {
+
+    }
 }
