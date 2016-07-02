@@ -14,7 +14,7 @@ public class Fall : MonoBehaviour {
 	void Update () {
 		if (flag == 1) {
 			//float y = gameObject.transform.position.y;
-			pos_y -= 0.01f;
+			pos_y -= 0.9f;
 			transform.position = new Vector3(transform.position.x, pos_y, transform.position.z);
 
 		}
@@ -23,7 +23,7 @@ public class Fall : MonoBehaviour {
 	void OnCollisionEnter(Collision collision){
 		if(collision.gameObject.tag=="Player"){
 			//setflag ();
-				Invoke ("setflag", 0.5f);
+				Invoke ("setflag", 0.1f);
 			//flag = 1;
 		}
 	}
