@@ -17,7 +17,7 @@ public class redarcontrol : MonoBehaviour {
 	void OnCollisionEnter(Collision collision){
 		if(collision.gameObject.tag=="Player"){
 			target.SetActive (true);
-			Invoke ("off_radar", 1.0f);
+			Invoke ("off_radar", 10.0f);
 
 
 		}
