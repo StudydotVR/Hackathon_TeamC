@@ -3865,7 +3865,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   Priority: 128
@@ -9685,6 +9685,60 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 73f233a3471dcaf4c8ed765f01b8276c, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1229038376
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 438638, guid: 3cd42f490d5013942a810660f4f96086, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 375
+      objectReference: {fileID: 0}
+    - target: {fileID: 438638, guid: 3cd42f490d5013942a810660f4f96086, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.11026
+      objectReference: {fileID: 0}
+    - target: {fileID: 438638, guid: 3cd42f490d5013942a810660f4f96086, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -69.503845
+      objectReference: {fileID: 0}
+    - target: {fileID: 438638, guid: 3cd42f490d5013942a810660f4f96086, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438638, guid: 3cd42f490d5013942a810660f4f96086, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438638, guid: 3cd42f490d5013942a810660f4f96086, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 438638, guid: 3cd42f490d5013942a810660f4f96086, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 438638, guid: 3cd42f490d5013942a810660f4f96086, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 489040, guid: 3cd42f490d5013942a810660f4f96086, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -291.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 489040, guid: 3cd42f490d5013942a810660f4f96086, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -84.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 489040, guid: 3cd42f490d5013942a810660f4f96086, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.56
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3cd42f490d5013942a810660f4f96086, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1237492414
 GameObject:
